@@ -1,0 +1,18 @@
+div.scrollmenu {
+    background-color: Black;
+    overflow: auto;
+    white-space:nowrap;
+    display: flex;
+}
+
+div.scrollmenu a {
+    display: inline-block;
+    color: black;
+    text-align: center;
+    padding: 3;
+    text-decoration: none;
+}
+
+div.scrollmenu a:hover {
+    background-color: Brown;
+}

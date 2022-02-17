@@ -1,0 +1,75 @@
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    line-height: 1.6;
+    background-image: url(http://localhost/Grooming/PIC/Background_1.png);
+    color: black;
+}
+
+.header{
+    padding-top: 5px;
+    padding-bottom: 10px;
+    width: 100%;
+    background: white;
+    font-family: Verdana, Tahoma, sans-serif;
+}
+
+.logo_pic{
+    width: 250px;
+    height: 250px;
+    margin-left: 40px;
+    padding-right: 5px;
+    border-right: 5px double black;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer{
+    left: 0;
+    bottom: 0;
+    padding: 10px;
+    background:  white;
+    position: fixed;
+    width: 100%;
+    height: 20px; 
+    opacity: 0.8;
+}
+
+.header_logo{
+    margin-top: 80px;
+    margin-bottom: 70px;
+    margin-right: 70%;
+    font-size: 30px;
+    font-weight: 700;
+    color: black;
+    border-left: 5px double black;
+}
+
+.Info_1
+{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    border: 10px double black;
+    background-image: url(http://localhost/Grooming/PIC/Background_2.png);   
+    display: flex;
+}
+
+
+.Info_2
+{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    border: 10px double black;
+    background-image: url(http://localhost/Grooming/PIC/Background_2.png);   
+    display: flex;
+}
+
+.find{
+    width: 10%;
+}

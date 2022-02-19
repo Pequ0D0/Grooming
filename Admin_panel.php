@@ -15,8 +15,8 @@ session_start();
             <div class="logo_in">
                 <div class="container">
                     <img class = "logo_pic" src="PIC/Logo.png" alt="">
-                         <div class="header_logo">Имиджборд "Phoenix"<br>
-                        <div class="header_logo_d">Новости и обсуждения</div></div>  
+                         <div class="header_logo">Grooming<br>
+                        <div class="header_logo_d">Панель добавления услуг</div></div>  
                         <div class="header_but">
                         </div>
                    </div>
@@ -29,13 +29,11 @@ session_start();
 
 <div class = "reg_form">
 <form action="PHP/addBook.php" method="post" enctype="multipart/form-data">
-<div class="input__text">Название книги:</div>
+<div class="input__text">Наименование услуги:</div>
                         <input name = "Book_name" class = "input" required>
-                        <div class="Book_description">Описание:</div>
+                        <div class="Book_description">Описание услуги:</div>
                         <textarea name="Book_description" id="" cols="50" rows="12" required></textarea>
-                        <div class="input__text">Жанр:</div>
-                        <textarea name="Book_genre" id="" cols="50" rows="2" required></textarea>
-                        <div class="input__text">Автор:</div>
+                        <div class="input__text">Цена услуги:</div>
                         <textarea name="Author" id="" cols="50" rows="2" required></textarea>
                         <div class="input__text">Обложка:</div>
                         <input type="file" name = "img_upload">
